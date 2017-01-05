@@ -32,31 +32,31 @@ Map.prototype.initMap = function (json) {
 
     instance.searchBar();
 
-    $('#create-marker').click(function(){
-      instance.addMarker();
-    });
-    //*************Code for autocomplete search bar***********
-    // Create the search box and link it to the UI element.
-    //   //************************************
-
-
-    //*************geojson*************
     $('#changetype-heat').click(function() {
       instance.clearLayers();
       instance.createHeatMap()
-    })
+    });
 
     $('#changetype-marker').click(function() {
       instance.clearLayers();
       instance.createJson();
-    })
+    });
 
     $('#changetype-all').click(function() {
       instance.clearLayers();
       instance.showAll()
-    })
+    });
+
+    $('#clear').click(function() {
+      instance.clearLayers();
+    });
+
+    $('#create-marker').click(function(){
+      instance.addMarker();
+    });
 
 };
+
 
 Map.prototype.clearLayers = function () {
 
