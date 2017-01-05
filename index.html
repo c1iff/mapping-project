@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="build/css/allConcat.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtnXZS-qdsqq0ohIt54PSu7qE0A6197Mg&calback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtnXZS-qdsqq0ohIt54PSu7qE0A6197Mg&libraries=visualization&places"
     ></script>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
@@ -21,6 +21,11 @@
         <input type="text" name="longitude" id="longitude">
         <button type="button" id="create-marker">Create Marker</button>
       </form>
+      <div class="form-group">
+
+      <input id="pac-input" class="form-control" type="text"
+        placeholder="Enter a location">
+      </div>
     </div>
     <div id="capture"></div>
       <div id="map"></div>

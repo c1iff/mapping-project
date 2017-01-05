@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Prague, Czech Republic", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 14.434500641290439, 50.075172985558901, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Uganda", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 32.450893627107327, 1.104209152048744, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Madagascar", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 44.40987106364372, -18.200075968170609, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "New Providence Island, Bahamas", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -77.402096133647277, 25.04508094929103, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Miami, USA", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -80.197602308278874, 25.76081598903038, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Casino Royale, Montenegro", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 18.865784617802561, 42.281890426448463, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lake Como, Italy", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 9.257167612743238, 46.016048611563917, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Venice, Italy", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": 0, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 12.33007694043796, 45.43842304596285, 0.0 ] } }
+]
+}
