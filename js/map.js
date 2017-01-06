@@ -13,7 +13,7 @@ var markers = [];
 Map.prototype.initMap = function (json) {
   var instance = this;
   var styledMapType = new google.maps.StyledMapType(
-    json, {name: 'Styled Map'});
+    json, {name: 'Dark'});
 
     map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 51.518732, lng: 0.128382},
@@ -112,6 +112,8 @@ Map.prototype.addMarker = function(){
 
   var latitude = parseFloat($('#latitude').val());
   var longitude = parseFloat($('#longitude').val());
+
+  map.setCenter({lat: latitude, lng: longitude})
   var marker = new google.maps.Marker({
     position: {lat: latitude, lng: longitude},
     draggable: true,

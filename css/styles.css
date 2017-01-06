@@ -1,15 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+input{
+  border-radius: 5px;
+}
+
+
 #map {
   height: 900px;
 }
 /* Optional: Makes the sample page fill the window. */
-html, body {
-  margin: 0;
-  padding: 0;
-}
 
 #pac-input {
   margin-top: 10px;
   width: 250px;
+  height: 32px;
 }
 
 #type-selector {
@@ -18,6 +27,7 @@ html, body {
  padding: 5px 11px 0px 11px;
  margin-top: 10px;
  margin-right: 10px;
+ border-radius: 5px;
 }
 
 #type-selector label {
@@ -25,4 +35,17 @@ html, body {
  font-size: 13px;
  font-weight: 300;
  margin-right: 10px;
+}
+
+#test {
+  text-align: center;
+}
+
+#latitude {
+  color: black;
+  margin-right: 30px;
+}
+
+#longitude {
+  color: black;
 }
